@@ -1,15 +1,9 @@
-MIT App Inventor Extensions
+App Inventor es una plataforma de desarrollo de aplicaciones móviles visual y basada en bloques. Fue desarrollada por el MIT (Instituto Tecnológico de Massachusetts) y se utiliza para crear aplicaciones móviles para dispositivos Android sin necesidad de tener conocimientos profundos de programación.
 
-This repository is a template repository that you can use for building an App Inventor extension separate from the App Inventor source repository. It is used primarily for our system to create TensorFlow.js-based extensions.
+App Inventor utiliza una interfaz gráfica y un entorno de desarrollo integrado (IDE) en línea que permite arrastrar y soltar bloques de código para construir la lógica y la funcionalidad de la aplicación. Esto hace que sea más accesible para principiantes y personas sin experiencia en programación.
 
-To get started, place the sources for your extension under the src/ directory. All of the standard annotations App Inventor provides are available to you. Any libraries you need should be placed under lib/deps/.
-Prerequisites
+La plataforma se basa en un concepto llamado "programación por bloques", donde los bloques representan diferentes funcionalidades y eventos de la aplicación. Los usuarios pueden conectar estos bloques de forma visual para crear la lógica de su aplicación.
 
-You will need:
+El juego de naves espaciales que se encuentra en esta carpeta (.aia) fue creado en esta plataforma.
 
-    java 1.8 (either OpenJDK or Oracle)
-        Do not use Java 8 or newer features as our build system does not yet support this.
-    ant 1.10 or higher
-    git 2.3.10 or higher
-
-If you are cloning from a repository created using GitHub's template repository feature, you will need to run the upgrade-appinventor.sh script to obtain the initial dependencies.
+Link para comenzar a usarlo: https://appinventor.mit.edu/explore/get-started
